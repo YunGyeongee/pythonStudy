@@ -37,3 +37,15 @@ YunGyeong = {
 print(YunGyeong)
 YunGyeong["handsome"] = True
 print(YunGyeong)
+
+
+
+# 4. Function
+print("lalalalaa")
+print(len("asdgaseasdgasdgas"))
+
+age = "18"
+print(type(age))
+n_age = int(age)
+print(n_age)
+print(type(n_age))
