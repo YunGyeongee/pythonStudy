@@ -78,3 +78,16 @@ def say_hello(name="anonymous"):
 
 say_hello()
 say_hello("Rachel")
+
+
+# 7. Returns : 함수의 return은 오직 하나만 사용할 수 있음
+def p_plus(a, b):
+  print(a + b)
+
+def r_plus(a, b) :
+  return a + b
+
+p_result = p_plus(2, 3)
+r_result = r_plus(2, 3)
+
+print(p_result, r_result)
