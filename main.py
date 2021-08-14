@@ -49,3 +49,11 @@ print(type(age))
 n_age = int(age)
 print(n_age)
 print(type(n_age))
+
+
+# 5. Python filter
+def say_hello():
+  print("hello")
+  print("bye")
+
+say_hello()
