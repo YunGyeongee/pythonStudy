@@ -57,3 +57,24 @@ def say_hello():
   print("bye")
 
 say_hello()
+
+# 6. Function Arguments
+def say_hello(who):
+  print("hello", who)
+
+say_hello("Rachel")
+
+def plus(a, b):
+  print(a + b)
+
+def minus(a, b=0): #defualt 값을 정의할 수 있음
+  print(a - b)
+
+plus(2,5)
+minus(2)
+
+def say_hello(name="anonymous"):
+  print("hello", name)
+
+say_hello()
+say_hello("Rachel")
