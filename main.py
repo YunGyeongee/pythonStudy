@@ -91,3 +91,18 @@ p_result = p_plus(2, 3)
 r_result = r_plus(2, 3)
 
 print(p_result, r_result)
+
+
+
+# 8. Keyworded Arguments
+def plus(a, b):
+  return a + b
+
+result = plus(b=30, a=1) #인자의 순서는 중요하지 않음. 단 인자명을 제대로 적어줘야함
+print(result)
+
+def say_hello(name, age):
+  return f"Hello {name} you are {age} years old" #문자열이면 f를 붙여주고 변수로 지정하고 싶은 것엔 {} 괄호로 묶어줌
+
+hello = say_hello("Rechal", "25")
+print(hello)
