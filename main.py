@@ -131,3 +131,14 @@ def age_check(age) :
     print("enjoy your drink")
 
 age_check(19)
+
+
+# 11. loop
+days = ("Mon", "Tue", "Wed", "Thu", "Fri")
+
+for i in days :
+  if i is "Wed" :
+    break
+  else :
+    print(i)
+  
