@@ -116,3 +116,18 @@ def pluss(a, b) :
     return None
 
 print(pluss(12, 1.2))
+
+
+# 10. if else and or
+def age_check(age) :
+  print(f"you are {age}")
+  if age < 18 :
+    print("you cant drink")
+  elif age == 18 or age == 19 :
+    print("you are new to this!")
+  elif age > 20 and age < 25 : # 둘 중 하나가 참이 아닐 경우엔 실행안됨 == 둘 다 참이여야 실행
+    print("you are still kind of young")
+  else :
+    print("enjoy your drink")
+
+age_check(19)
