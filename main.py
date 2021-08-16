@@ -106,3 +106,13 @@ def say_hello(name, age):
 
 hello = say_hello("Rechal", "25")
 print(hello)
+
+
+# 9. if else
+def pluss(a, b) :
+  if type(b) is int or type(b) is float :
+    return a + b
+  else :
+    return None
+
+print(pluss(12, 1.2))
