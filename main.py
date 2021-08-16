@@ -141,4 +141,18 @@ for i in days :
     break
   else :
     print(i)
-  
+
+
+# 12. Modules
+# import math -> 필요한 것만 임포트하ㅣ
+from math import ceil, fsum
+
+print(ceil(1.2))
+print(fsum([1, 2, 3, 4, 5, 6, 7]))
+
+
+
+# 계산기
+from calculator import plus
+
+print(plus(1,2), minus(1,2))
